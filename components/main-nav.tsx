@@ -20,7 +20,7 @@ export function MainNav({
         },
         {
             href: `/${params.storeId}/billboards`,
-            label: "Billboards",
+            label: "Tableros",
             active: pathname === `/${params.storeId}/billboards`
         },
 
@@ -30,24 +30,14 @@ export function MainNav({
             active: pathname === `/${params.storeId}/categories`
         },
         {
-            href: `/${params.storeId}/categories`,
-            label: "Categorias",
-            active: pathname === `/${params.storeId}/categories`
-        },
-        {
             href: `/${params.storeId}/sizes`,
             label: "Tamaños",
             active: pathname === `/${params.storeId}/sizes`
         },
         {
-            href: `/${params.storeId}/categories`,
-            label: "Categorias",
-            active: pathname === `/${params.storeId}/categories`
-        },
-        {
-            href: `/${params.storeId}/sizes`,
-            label: "Tamaños",
-            active: pathname === `/${params.storeId}/sizes`
+            href: `/${params.storeId}/colors`,
+            label: "Colores",
+            active: pathname === `/${params.storeId}/colors`
         },
         {
             href: `/${params.storeId}/settings`,
