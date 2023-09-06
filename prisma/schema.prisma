@@ -94,7 +94,7 @@ model Product {
   colorId    String
   color      Color       @relation(fields: [colorId], references: [id])
   images     Image[]
-  OrderItems OrderItem[]
+  orderItems OrderItem[]
   createdAt  DateTime    @default(now())
   updatedAt  DateTime    @updatedAt
 
